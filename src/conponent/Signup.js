@@ -38,7 +38,7 @@ const Signup = (props) => {
   return (
     <>
       <h2 className='my-5'>Welcome to YNotes</h2>
-      <h5 className='my-3'>fill your details up here</h5>
+      <h5 className='my-3'>Fill up your details here</h5>
       <form onSubmit={handleClick}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Name</label>

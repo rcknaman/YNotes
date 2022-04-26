@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import Navbar from './conponent/Navbar';
 import { Home } from './conponent/Home';
-import { About } from './conponent/About';
 import NoteState from './context/notes/NoteState';
 import Alert from './conponent/Alert'
 import Signin from './conponent/Signin';
@@ -34,9 +33,6 @@ function App() {
 
 
             <Routes>
-              <Route path="/about" element={<About />}>
-
-              </Route>
               <Route path="/" element={<Home showAlert={showAlert}/>}>
 
               </Route>
